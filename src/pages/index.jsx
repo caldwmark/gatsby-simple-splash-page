@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "gatsby"
+import { SEO } from "../components/seo"
 import "/static/css/global.css";
-
 
 export default function Home() {
   return (
     <article className='container'>
+      <title>hm servers</title>
       <div className='main'>
         <p>
           The hm-servers.com domain is not active serving webpages.  I just keep this for 
@@ -23,3 +24,7 @@ export default function Home() {
     </article>
   )
 }
+
+export const Head = () => (
+  <SEO />
+)
