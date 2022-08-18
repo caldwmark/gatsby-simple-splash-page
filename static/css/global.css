@@ -21,6 +21,7 @@ body {
 
 div.main {
     margin: 0;
+    padding: 1rem;
     max-width: 600px;
     line-height: 26px;
 }
@@ -40,6 +41,3 @@ div.main {
     color: deepskyblue;
     
 }
-
-
-
