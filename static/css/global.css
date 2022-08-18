@@ -26,13 +26,13 @@ div.main {
 }
 
 .links {
+    display: flex;
     list-style-type: none;
-    
 }
 
 .links li {
-    margin: 0 0 8px 0;
     line-height: 95%;
+    width: 50%;
 }
 
 .links a {
